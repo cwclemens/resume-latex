@@ -1,0 +1,99 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+\usepackage{helvetica} % uses helvetica postscript font (requires helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{multicol}
+
+\setlength{\multicolsep}{0pt}
+
+\usepackage{amssymb}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\begin{document}
+
+\name{Curtis W. Clemens}
+\address{2706 Erlene Dr. Apt 146, Cincinnati OH, 45238 \\ (419) 343-4892}
+\address{cwclemens@gmail.com \\ curtisclemens.com}
+ 
+\begin{resume}
+ 
+ 
+\section{EDUCATION} {\bf Massachusetts Institute of Technology \hfill June 2014} \\         
+		{\sl Bachelor of Science,} Electrical Engineering and Computer Science \\ % \hfill GPA 3.6/5 \\
+		with concentration in writing \\
+		{\it Relevant Coursework:}
+		\begin{multicols}{2} \begin{itemize} \setlength{\itemsep}{-2pt}
+		\item Design and Analysis of Algorithms
+		\item Computer Graphics
+		\item Microcomputer Project Laboratory
+		%\item Signals and Systems
+		\item Elements of Software Construction
+		%\item Artificial Intelligence
+		\item Statistics for Engineers and Scientists
+		\end{itemize} \end{multicols}
+		
+%		\vspace{2.5mm}
+%		{\bf St. John's Jesuit HS \hfill June 2009}
+		
+ \section{EXPERIENCE} {\bf Novaro Medical Solutions \hfill July 2014 to present} \\
+			{\sl Software Developer} \\
+			\vspace{-4mm} \begin{itemize} \setlength{\itemsep}{-2pt}
+			\item Redesigned a GUI to a SQL database used for keeping records and settings for practices, providers, insurance companies, etc.
+                        \item Implemented alert system that checks database for problematic data using stored procedures and provides a summary of problems to the user with links to fix each problem.
+			\item Refactored upwards of 50k lines of old code written in C\#.
+			\item Debugged, maintained, and wrote documentation and user guides.
+			\end{itemize}
+ 
+\section{SKILLS} \begin{tabular}{rl}
+		{\sl Programming:} & C, C++, C\#, Haskell, Java, Python \\
+		{\sl Web Development:} & HTML/CSS, JavaScript \\
+		{\sl Embedded Systems:} & Intel 8051, Cypress PSoC \\
+                {\sl Languages:} & English, Spanish \\
+		{\sl Misc.:} & Git, \LaTeX, OpenGL, SQL%, Circuit design and construction
+		\end{tabular}
+
+
+
+
+%\section{WORK EXPERIENCE} {\sl Personal Tutor} \hfill 2012 to present \\
+%			\vspace{-4mm} \begin{itemize} \setlength{\itemsep}{-2pt}
+%			\item Built and maintained a set of clients (usually between 4 and 10) by advertizing on sites like Wyzant.com and UniversityTutor.com.
+%			\item Cultivated professional relationships with students that would often last many weeks.
+%			\item Provided tutoring and academic support in a wide variety of subjects to students at all levels, though mostly collegiate.
+%			\end{itemize}
+
+%			
+
+
+\section{EXTRA-CURRICULAR \\ ACTIVITIES}
+	    
+            Elected {\it Web Manager}, Theta Xi Fraternity \hfill 2012 \\
+ 		\vspace{-4mm} \begin{itemize} \setlength{\itemsep}{-2pt}
+		\item Maintained and backed up 10TB file server.
+		\item Maintained website.
+		\end{itemize}
+
+            {\sl Classical Mechanics TA}, MIT \hfill 2011 \\
+    	        \vspace{-4mm} \begin{itemize} \setlength{\itemsep}{-2pt}
+		\item Guided group discussions while the groups would solve problems.
+		\item Answered questions and graded homework.
+		\end{itemize}
+
+	    Elected {\it House Manager}, Theta Xi Fraternity \hfill 2011 \\
+		\vspace{-4mm} \begin{itemize} \setlength{\itemsep}{-2pt}
+		\item Allocated \$2k budget for repairs and rennovations.
+		\item Delegated work to members, logged hours, managed cleaning and construction operations.
+		\item Addressed community concerns and made regular reports.
+		\end{itemize}
+
+	    Varsity Crew \hfill 2006 to 2011 \\
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
